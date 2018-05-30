@@ -1,0 +1,1 @@
+I replaced the individual numbers with variables representing constants. I defined double and int variables and used them to replace values in the equations. Fixing the concatenation in each print statement was hard to do, and tedious.
