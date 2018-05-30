@@ -6,11 +6,11 @@
  * @author Lydia Chung
  * @version 29/05/2018
  */
-public class CalculationsV1
+public class M02_Calculations
 {
     public static void main(String[ ] args)
     {
-        int iNum1 = 25;
+        int iNum1 = 27;
         int iNum2 = 9;
         double dNum1 = 43.21;
         double dNum2 = 3.14;

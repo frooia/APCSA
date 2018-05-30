@@ -1,0 +1,1 @@
+This program was monotonous to type, because I had to repetitively type print statements. I should have used copy and paste for these statements. This program was simple to create, but not interesting to write.
