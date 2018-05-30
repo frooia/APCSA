@@ -10,7 +10,7 @@ public class CalculationsV1
 {
     public static void main(String[ ] args)
     {
-        int iNum1 = 26;
+        int iNum1 = 25;
         int iNum2 = 9;
         int iNum3 = 11;
         double dNum1 = 43.21;
