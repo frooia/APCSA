@@ -1,9 +1,10 @@
+
 /**
  * The purpose of this program is to 
  * calculate the average of four grades
  * 
- * @author Meg Abyte 
- * @version 06/11/17
+ * @author Lydia Chung 
+ * @version 01/06/2018
  */
 public class M02_Grades
 {
