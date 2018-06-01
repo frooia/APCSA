@@ -1,7 +1,8 @@
 
 /**
  * The purpose of this program is to 
- * calculate the average of four grades
+ * calculate the average of test grades 
+ * and total points for each test added.
  * 
  * @author Lydia Chung 
  * @version 01/06/2018
@@ -10,14 +11,20 @@ public class M02_Grades
 {
     public static void main(String[ ] args)
     {
-        int test1 = 96;         //test score 1
-        int test2 = 78;         //test score 2
-        int test3 = 85;         //test score 3
-        int test4 = 87;         //test score 4
-        double average;         //average of four test scores
-        
-        //calculate the average grade and print the results
-        average = (test1 + test2 + test3 + test4) / 4.0;
-        System.out.println("Average Score: " + average);            
+        //local variables
+    	int[] gradeList = {95, 73, 91, 83, 100, 93, 89, 70, 79};
+    	int numTests = gradeList.length;	//counts the number of tests
+    	int testIndex = 0;	//test #
+    	int testGrade = 0;	//individual test grade
+    	int totalPoints = 0;//total points for all tests
+    	double average = 0;	//average grade
+    	
+    	for (int i = 0; i < (numTests); i++) {
+    		testIndex++;
+    		testGrade = gradeList[i];
+    		totalPoints += testGrade;
+    		average = (double) totalPoints / (double) testIndex; //calculates average of all grades so far
+    		System.out.println("Test #" + testIndex + "\t\tTest grade: " + gradeList[i] + "\t\tTotal points: " + totalPoints + "\tAverage: " + average);
+    	}
     }//end of main method
 }//end of class

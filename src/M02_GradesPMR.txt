@@ -1,0 +1,1 @@
+I enjoyed using a for loop in this project rather than repeatedly copy/pasting print statements, += statements, and variable names. I also preferred using an array to list the grades, so computations can be made more efficiently rather than writing a whole new section for every grade added.
