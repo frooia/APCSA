@@ -2,8 +2,11 @@ public class _Testbed
 {
 	public static void main(String[ ]args)
 	{
-		double dNum = (double)(14/5);
-		int iNum = 55/100;
-		System.out.println(dNum);
+		double x = 4.5; 
+	    double y = 5.4; 
+	    int z = 5; 
+
+	    x += (int)x + (int)y / z;
+		System.out.println(x);
 	}//end of main method
 }//end of class
