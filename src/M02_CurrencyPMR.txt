@@ -1,0 +1,1 @@
+I used the website https://www.xe.com/currencyconverter/ for currency conversions. The formatting for the display took the most time, while the actual calculations were not very complicated. The souvenir part of the program was illogical (who would buy 16 of the same item?!) but not hard to write.
