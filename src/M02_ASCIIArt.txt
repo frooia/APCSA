@@ -1,0 +1,1 @@
+In this assignment, I learned how to print drawings using repeated print statements, ASCII characters, and escape sequences. It would have been more efficient to have a loop for each line instead of typing a new print statement every time. It was hard getting the symmetry right.
