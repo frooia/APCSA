@@ -4,7 +4,7 @@
  * @version 04/06/2018
  * 
  */
-public class M02_ASCIIArt
+public class M03_ASCIIArt
 {
 	public static void main(String[ ] args)
 	{
