@@ -1,0 +1,14 @@
+PROJECT TITLE: 03.07 Accepting User Input / M03_Grades.java
+PURPOSE OF PROJECT: Take user input test grades, average them, total the points.
+DATE: 12/06/2018
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> I finally got the program to display everything correctly.
+The user can now input up to 100 test grades and then calculate the averages and sums for all of them.
+I used an editable list to allow for easy input and calculation.
+
+<-s> Getting the for loops to work correctly took some time, and I learned that you can't use == for 
+comparing strings, instead you have to use .equals().
+***********************************************************************************************************
+In the future: I'll try to learn the correct syntax for lists, arrays, and if statements. I was confused on
+how to use break; in if statements and loops, and I'll keep practicing.
