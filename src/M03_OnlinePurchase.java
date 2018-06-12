@@ -23,7 +23,7 @@ public class M03_OnlinePurchase
 		String month = date.substring(0, 2);
 		String day = date.substring(3, 5);
 		String year = date.substring(6);
-		System.out.print("What color of teacups would you like to buy? (red/blue/green/yellow) "); //asks for color of teacups
+		System.out.print("What color of teacups would you like to buy? (red/blue/green/yellow): "); //asks for color of teacups
 		String color = in.next();
 		System.out.print("How many teacups would you like to buy? "); //asks for teacups bought
 		String teacupsString = in.next();
