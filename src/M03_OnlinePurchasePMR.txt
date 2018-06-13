@@ -1,10 +1,10 @@
-PROJECT TITLE:
-PURPOSE OF PROJECT: 
-DATE: 
+PROJECT TITLE: 03.09 Challenge Program / M03_OnlinePurchase.java
+PURPOSE OF PROJECT: Simulate buying teacups, generate a receipt based on user input
+DATE: 13/06/2018
 AUTHOR: Lydia Chung 
-************************************************** P M R ***************************$ 
+************************************************** P M R *************************************************** 
 <+s> This project was relatively straightforward, and no fancy code was required.
 I finished this project quickly with very few challenges.
 <-s> This project was monotonous, just repeatedly typing print statements and scanner inputs for variables.
-************************************************************************************$
+************************************************************************************************************
 In the future: I would like to pay more attention to details when typing long blocks of statements.
