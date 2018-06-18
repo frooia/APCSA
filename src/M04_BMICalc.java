@@ -23,18 +23,18 @@ public class M04_BMICalc
 		name += in.nextLine();
 		System.out.print("What is your height in feet and inches (5 4 is 5 feet 4 inches): "); //user's height
 		String feetString = in.next();
-		//String inchesString = in.nextLine();
+		String inchesString = in.nextLine();
 		int feetInt = Integer.parseInt(feetString);
-		//int inchesInt = Integer.parseInt(inchesString);
+		int inchesInt = Integer.parseInt(inchesString);
 		System.out.print("What is your weight in pounds: "); //user's weight
 		int pounds = in.nextInt();
 		
 		//metric conversions
-		//double meters = 0.0254 * (feetInt * 12 + inchesInt);
+		double meters = 0.0254 * (feetInt * 12 + inchesInt);
 		double kgs = pounds * 0.4536;
 		
 		//calculate BMI and weight status
-		double bmi = kgs / (kgs * kgs);
+		double bmi = kgs / (meters * meters);
 		String weightStatus;
 		if (bmi < 18.5) {
 			weightStatus = "Underweight";
@@ -53,7 +53,7 @@ public class M04_BMICalc
 		System.out.println("Results");
 		System.out.println("*******");
 		System.out.println("Name: " + name);
-		//System.out.println("Height (meters): " + meters);
+		System.out.println("Height (meters): " + meters);
 		System.out.println("Weight (kilograms): " + kgs);
 		System.out.println("BMI: " + bmi);
 		System.out.println("Weight status: " + weightStatus);
