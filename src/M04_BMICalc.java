@@ -3,7 +3,7 @@
  * given a person's height and weight.
  * 
  * @author Lydia Chung
- * @version 18/06/2018
+ * @version 19/06/2018
  */
 import java.util.Scanner;
 public class M04_BMICalc
@@ -22,8 +22,10 @@ public class M04_BMICalc
 		String name = in.next();
 		name += in.nextLine();
 		System.out.print("What is your height in feet and inches (5 4 is 5 feet 4 inches): "); //user's height
-		String feetString = in.next();
-		String inchesString = in.nextLine();
+		String height = in.next();
+		height += in.nextLine();
+		String feetString = height.substring(0, 1);
+		String inchesString = height.substring(2);
 		int feetInt = Integer.parseInt(feetString);
 		int inchesInt = Integer.parseInt(inchesString);
 		System.out.print("What is your weight in pounds: "); //user's weight

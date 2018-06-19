@@ -1,0 +1,11 @@
+PROJECT TITLE: 04.05 Body Mass Index / M03_BMICalc.java
+PURPOSE OF PROJECT: To make a BMI calculator based on user-input height and weight
+DATE: 19/06/2018
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> Creating the variables was relatively straightforward, and the math did not involve casting or any 
+complicated equations.
+<-s> I had some trouble parsing the height string into integers, because of the space in between the 2 
+numbers.
+***********************************************************************************************************
+In the future: I would practice more with parsing numbers, and with the in.nextLine() method.
