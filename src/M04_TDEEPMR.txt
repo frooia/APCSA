@@ -1,0 +1,11 @@
+PROJECT TITLE: 04.07 TDEE / M04_TDEE.java
+PURPOSE OF PROJECT: Calculate total daily energy expenditure (TDEE) based on gender, BMR, and activity level
+DATE: 20/06/2018
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> I was able to calculate my own TDEE, the if statements themselves were not hard to write.
+<-s> I had to spend some time planning the nested if statements, and I had to take the upper/lower case 
+letters into account.
+***********************************************************************************************************
+In the future: I would plan before starting to write a program, so I have an idea of how the program will 
+be structured beforehand.
