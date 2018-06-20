@@ -21,9 +21,8 @@ public class M04_TDEE
 		System.out.print("What is your basal metabolic rate (BMR): ");
 		int bmr = in.nextInt();
 		System.out.print("What is your gender (m/f): ");
-		String genderString = in.next();
-		char genderChar = genderString.charAt(0);
-		if (!(genderChar == 'm' || genderChar == 'M' || genderChar == 'f' || genderChar == 'F'))
+		String genderString = in.next(); //gender is string not char so can fit requirement -_-'
+		if (!(genderString.equals("m") || genderString.equals("M") || genderString.equals("f") || genderString.equals("F")))
 			System.out.println("You chose an option that was not on the list. Please try again.");
 		
 		//prints menu and accepts input
@@ -36,7 +35,7 @@ public class M04_TDEE
 		System.out.println("f. Extremely active: (full-time athletes, construction workers)");
 		String choiceString = in.next();
 		char choiceChar = choiceString.charAt(0);
-		if (!(choiceChar == 'a' || choiceChar == 'A' || choiceChar == 'b' || choiceChar == 'B' || choiceChar == 'c' || choiceChar == 'C' || choiceChar == 'd' || choiceChar == 'D' || choiceChar == 'e' || choiceChar == 'E' || choiceChar == 'f' || choiceChar == 'F'))
+		if (!(choiceChar == 'a' || choiceChar == 'A' || choiceChar == 'b' || choiceChar == 'B' || choiceChar == 'c' || choiceChar == 'C' || choiceChar == 'd' || choiceChar == 'D' || choiceChar == 'e' || choiceChar == 'E' || choiceChar == 'f' || choiceChar == 'f'))
 			System.out.println("You chose an option that was not on the list. Please try again.");
 		double activityFactor = 0; //default value
 		
@@ -48,34 +47,34 @@ public class M04_TDEE
 			activityFactor = 1.3;
 		}
 		else if (choiceChar == 'c' || choiceChar == 'C') {
-			if (genderChar == 'm' || genderChar == 'M') {
+			if (genderString.equals("m") || genderString.equals("M")) {
 				activityFactor = 1.6;
 			}
-			else if (genderChar == 'f' || genderChar == 'F') {
+			else if (genderString.equals("f") || genderString.equals("F")) {
 				activityFactor = 1.5;
 			}
 		}
 		else if (choiceChar == 'd' || choiceChar == 'D') {
-			if (genderChar == 'm' || genderChar == 'M') {
+			if (genderString.equals("m") || genderString.equals("M")) {
 				activityFactor = 1.7;
 			}
-			else if (genderChar == 'f' || genderChar == 'F') {
+			else if (genderString.equals("f") || genderString.equals("F")) {
 				activityFactor = 1.6;
 			}
 		}
 		else if (choiceChar == 'e' || choiceChar == 'E') {
-			if (genderChar == 'm' || genderChar == 'M') {
+			if (genderString.equals("m") || genderString.equals("M")) {
 				activityFactor = 2.1;
 			}
-			else if (genderChar == 'f' || genderChar == 'F') {
+			else if (genderString.equals("f") || genderString.equals("F")) {
 				activityFactor = 1.9;
 			}
 		}
-		else if (choiceChar =='f' || choiceChar == 'F') {
-			if (genderChar == 'm' || genderChar == 'M') {
+		else if (choiceChar == 'f' || choiceChar == 'F') {
+			if (genderString.equals("m") || genderString.equals("M")) {
 				activityFactor = 2.4;
 			}
-			else if (genderChar == 'f' || genderChar == 'F') {
+			else if (genderString.equals("f") || genderString.equals("F")) {
 				activityFactor = 2.2;
 			}
 		}
@@ -84,7 +83,7 @@ public class M04_TDEE
 		double tdee = bmr * activityFactor;
 		System.out.println("Results: ");
 		System.out.println("Name: " + name);
-		System.out.println("Gender: " + genderChar);
+		System.out.println("Gender: " + genderString);
 		System.out.println("BMR: " + bmr);
 		System.out.println("Activity Factor: " + activityFactor);
 		System.out.println("TDEE: " + tdee);
