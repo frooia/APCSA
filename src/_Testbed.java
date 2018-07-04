@@ -1,52 +1,74 @@
 
 /**
- * This program models flipping an unbiased coin and counting the
- * number of times heads or tails occurs.
+ * The purpose of this program is to read data from
+ * an input file.
  *
- * @author Charles Babbage 
+ * @author Charles Babbage
  * @version 06/05/17
  */
 import java.util.Scanner;
+import java.io.File;
+import java.io.IOException;
 public class _Testbed
 {
-	public static void main(String[] args)
-	{
-	    // Declare and initialize variables
-	    int heads = 0;
-	    int tails = 0;
-	    int flipCount = 0;
-	    int totalFlips = 0;
-	    double randNum = 0.0;
-	    Scanner in = new Scanner(System.in);
+    public static void main(String[] args) throws IOException
+    {
 
-	    // Input number of coins flipped
-	    System.out.println("How many times will the coin be flipped? ");
-	    totalFlips = in.nextInt();
+        int token;
+        File fileName = new File("src//data1.txt");
+        Scanner inFile = new Scanner(fileName);
+        int sum = 0;
 
-	    // Simulate flipping coins.
-	    while(flipCount < totalFlips)
-	    {
-	    	//Random value between 0.0 (inclusive) and 1.0 (exclusive)
-	        randNum = Math.random();
-	        System.out.print(flipCount + "\t" + randNum);
+        //while loop will continue while inFile has a next token to read
+        while( inFile.hasNextInt() )
+        {
+            token = inFile.nextInt( );      //read next token from file
+            System.out.println(token);   //print value of token
+        }//end while
+        
+        inFile.close();                 //close input file
 
-	        if(randNum < 0.3)          //change to < 0.3
-	        {
-	            heads++;
-	            System.out.println("\t heads");
-	        }
-	        else
-	        {
-	            tails++;
-	            System.out.println("\t tails");
-	        }
-	        flipCount++;
+    }//end of main method
+}//end of class
 
-	    }//end while
 
-	    //Output number of heads and number of tails
-	    System.out.println();
-	    System.out.println("Number of Heads = " + heads);
-	    System.out.println("Number of Tails = " + tails);
-	}
-}
+// V3: Use the following block of code to test reading integers from data3.txt
+/*
+      //String token = "";
+      int intToken = 0;
+      File fileName = new File("data3.txt");
+      Scanner inFile = new Scanner(fileName);
+      int total = 0;
+
+      //while loop will continue while inFile has a next token to read
+      while (inFile.hasNext())
+      {
+         intToken = inFile.nextInt();      //read next token from file
+         System.out.println(intToken);   //print value of token
+         total += intToken;
+      }//end while
+
+      System.out.println("\nTotal: " + total);
+      inFile.close();                 //close input file
+
+ */
+
+// V4: Use the following block of code to test reading doubles from data4.txt
+/*
+      String token = "";
+      double doubleToken = 0.0;
+      File fileName = new File("data4.txt");
+      Scanner inFile = new Scanner(fileName);
+      double total = 0;
+
+      //while loop will continue while inFile has a next token to read
+      while (inFile.hasNext())
+      {
+         doubleToken = inFile.nextDouble( );      //read next token from file
+         System.out.println(doubleToken);   //print value of token
+         total += doubleToken;
+      }//end while
+
+      System.out.println("\nTotal: " + total);
+      inFile.close();                 //close input file
+ */

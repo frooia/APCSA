@@ -1,0 +1,12 @@
+PROJECT TITLE: 05.03 Family Structure / M05_FamilyStructure.java
+PURPOSE OF PROJECT: To calculate the average composition of families with 2 children, boy/girl, based on a
+text file
+DATE: 03/07/2018
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> Finding out how to make the while loop was challenging and fun, especially setting up the if 
+statements inside.
+<-s> I had to look up previous examples for how to make the doubles round to 1 decimal place, and the 
+specific syntax needed in the header and when defining the variables.
+***********************************************************************************************************
+In the future: I will memorize useful syntax and formulae so I can recall them quickly when needed.
