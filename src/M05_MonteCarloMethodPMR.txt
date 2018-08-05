@@ -1,0 +1,13 @@
+PROJECT TITLE: 05.06 Monte Carlo Method/M05_MonteCarloMethod.java
+PURPOSE OF PROJECT: To create a simulation of the average number of squirrels observed before finding a fox
+squirrel
+DATE: 05/08/2018
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> I knew how to conduct the simulation after taking AP Statistics last year, so the algorithm was 
+straightforward.
+<-s> I had a hard time setting up the scanner for reading the file again, but I figured out how to do it 
+after reading answers from an online forum. 
+***********************************************************************************************************
+In the future: I will remember specific commands and methods, and procedures that are necessary for each
+method.
