@@ -14,15 +14,8 @@ class _Testbed
 {
    public static void main (String [ ] args) throws IOException
    {
-      //construct an object called outFile to allow access to output methods of the PrintWriter class
-      PrintWriter outFile = new PrintWriter(new File("bah.txt"));
-
-      for (int loop = 1; loop <= 20; loop++)
-      {
-          outFile.println(loop + "Sheep and goats are different.");
-      }//end of for loop
-
-      outFile.close ( );    //close the file when finished
+	  int aski = 65;
+      System.out.println((char)aski);
 
    }//end of main method
 }//end of class
