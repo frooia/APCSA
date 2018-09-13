@@ -1,0 +1,12 @@
+PROJECT TITLE: 06.02 Weather Data / M06_WeatherData.java
+PURPOSE OF PROJECT: To show the monthly temperature and precipitation of cities in different scales on a 
+table
+DATE: 09/13/2018
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> This project was not complicated algorithm-wise, and it was easy to plug numbers into arrays. Using 
+printf() was also simple.
+<-s> It required some thought to round the long doubles, because they didn't fit into the table.
+***********************************************************************************************************
+In the future: I will try to remember using the printf() statements and how they function, with the % sign
+notation and the positive and negative numbers.

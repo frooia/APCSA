@@ -1,21 +1,62 @@
 
 /**
- * The purpose of this program is to demonstrate how to write information to
- * a text file on the hard disk.
+ * This program demonstrates how to format strings with the printf() method.
  *
- * @author Charles Babbage
- * @version 06/05/17
+ * After reading each section of the lesson on formatting strings, remove the
+ * comments for the appropriate section of code, then run it to see printf()
+ * in action.
+ *
+ * @author David J. Farber
+ * @version 06/06/17
  */
-
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.io.File;
-class _Testbed
+public class _Testbed
 {
-   public static void main (String [ ] args) throws IOException
-   {
-	  int aski = 65;
-      System.out.println((char)aski);
+    public static void main(String [] args)
+    {
+        String arg1 = "Tallahassee";
+        String arg2 = "Florida";
+        /*
+        System.out.println(".........1.........2.........3.........4.........5");
+        System.out.printf("%s", arg1);
+        System.out.println();
+        System.out.printf("%S", arg1);
+        System.out.println();
+        System.out.println();
+        */
+        //Don't forget to uncomment the following sections as you work through
+        //the lesson.
 
-   }//end of main method
-}//end of class
+        /*
+        System.out.println(".........1.........2.........3.........4.........5");
+        System.out.printf("%15s%n", arg1);
+        System.out.printf("%-15s", arg1);
+        System.out.println(arg1);
+        System.out.println();
+        */
+
+
+        // Left justify String values
+        /*
+        System.out.println(".........1.........2.........3.........4.........5");
+        System.out.printf("%-15s",arg1);
+        System.out.printf("%-7s%n",arg2);
+        System.out.println();
+        */
+
+        // Multiple arguments
+        
+        System.out.println(".........1.........2.........3.........4.........5");
+        System.out.printf("%-15s%-15s%-15s", arg1, arg2, "Hello");
+        System.out.print("there");
+        System.out.println();
+        
+
+        //Printing multiple String values
+        /*
+        System.out.printf("City: %-15s State: %-7s\n", arg1, arg2);
+        System.out.printf("%s is the capitol of %s.\n", arg1, arg2);
+        System.out.printf("Florida State University is located in %s, %s.\n", arg1, arg2);
+        System.out.printf("The population of %s, %s is over 150,000.\n", arg1, arg2);
+        */
+    }
+}
