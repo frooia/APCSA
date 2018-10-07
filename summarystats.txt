@@ -1,0 +1,10 @@
+	Average:         2.5          959.9               110.47
+	Minimum:         1            916                  74.80
+	Maximum:         4            989                 149.60
+Year Range: 1995-1996
+Counts for each category: 
+   Category 1: 6
+   Category 2: 3
+   Category 3: 6
+   Category 4: 5
+   Category 5: 0

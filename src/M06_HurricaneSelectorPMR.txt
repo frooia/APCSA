@@ -1,0 +1,13 @@
+PROJECT TITLE: 06.04 Challenge Program / M06_HurricaneSelector.java
+PURPOSE OF PROJECT: Display the pressures, wind speeds, categories, and names of hurricanes within a chosen 
+year rang, and calculate summary statistics
+DATE: 10/06/2018
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> This project was cumulative, so it only required me to gather information from previous lessons. I 
+could refer to previous programs to use code for creating PrintWriter files and other files.
+<-s> Using printf() was very tedious, and I had to count out exact character numbers before writing the 
+statements. 
+***********************************************************************************************************
+In the future: I would practice counting characters and formatting using printf(), and refer to previous 
+programs for similar lines of code.
