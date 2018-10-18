@@ -1,0 +1,13 @@
+PROJECT TITLE: 07.01 Math Class Methods / M07_MathClassMethods.java
+PURPOSE OF PROJECT: To calculate coordinate points of a circle with a user-provided radius at each
+increment
+DATE: 10/18/18
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> This program was very simple and easy to finish, it did not take me a long time to find all the
+methods needed to perform Pythagorean Theorem.
+<-s> The printf() statement took a while to write, and calculating the exact number of character spaces to
+allot each column with was monotonous.
+***********************************************************************************************************
+In the future: I would try to practice calculating character counts in the IDE, so that printf() statements 
+are easier.
