@@ -1,73 +1,68 @@
+
 /**
- * This class demonstrates the use of several members of the Math class.
- *
- *     NOTE: There are multiple segments of code below. After you understand
- *           the code in one section, delete block comment symbols (slash
- *           and asterisk) in order to continue discovering.
+ * The purpose of this program is to grade a True-False test.
  *
  * @author Grace Hopper
  * @version 06/07/17
  */
+import java.util.Scanner;
+import java.io.File;
+import java.io.IOException;
 public class _Testbed
 {
-    public static void main(String[ ] args)
+	// Read in test data from text file.
+    public static String [] readTestData()throws IOException
     {
-        //example of raising a number to the nth power
-        double number = 2;
-        double nthPower = 15;
-        double powValue = Math.pow(number, nthPower);
-        System.out.println(number + " to the power of " + nthPower + ": " + powValue);
-        System.out.println();
+        int index = 0;
+        String [] answers = new String[11];
 
-        // example of integers and the pow() method
-        /*
-        int n = 2;
-        int p = 15;
-        int powValue2 = (int)Math.pow(n, p);
-        System.out.println(n + " to the power of " + p + ": " + powValue2);
-        System.out.println();
-        */
+        File fileName = new File("src/TestData1.txt");
+        Scanner inFile = new Scanner(fileName);
+        while (inFile.hasNext())
+        {
+            answers[index] = inFile.next( );
+            index++;
+        }
+        inFile.close();
+        return answers;
+    }
 
-        //example of finding the square root of a value
-        /*
-        double someNumber = 17.5;
-        double squareRoot = Math.sqrt(someNumber);
-        System.out.println("The square root of " + someNumber + " is: " + squareRoot);
-        System.out.println();
-        */
+    // Grade the test and count the number correct.
+    public static int gradeTest(String[] test, String[] key)
+    {
+        int correct = 0;
 
-        //example of finding the absolute value of an integer
-        /*
-        int integerNumber = -34;
-        int intAbsValue = Math.abs(integerNumber);
-        System.out.println("The absolute value of " + integerNumber + " is: " + intAbsValue);
-        System.out.println();
-        */
+        for(int n = 1; n < test.length; n++)
+        {
+            if(test[n].equals(key[n]))
+                correct++;
+        }
+        return correct;
+     }
 
-        //example of finding the absolute value of a double
-        /*
-        double decimalNumber = -4.56;
-        double decimalAbsValue = Math.abs(decimalNumber);
-        System.out.println("The absolute value of " + decimalNumber + " is: " + decimalAbsValue);
-        System.out.println();
-        */
+     // Calculate the percent correct.
+     public static double calcPercent(int n)
+     {
+         return (n/10.0) * 100;
+     }
 
-        //example of using the constant PI to calculate a circumference
-        //notice that PI is not assigned a value, it has a constant value assigned by the Math class
-        /*
-		double myRadius = 3.5;
-		double myCircumference = 2 * Math.PI * myRadius;
-		System.out.println("The circumference of a circle with radius " + myRadius + " is: " + myCircumference);
-        System.out.println();
-        */
 
-        //example of multiple Math class methods used together
-        /*
-        int x1 = 300;
-        int x2 = 250;
-        double answer = Math.sqrt(Math.pow(Math.abs(x2 - x1),3));
-        System.out.println("The result of Math.sqrt(Math.pow(Math.abs(x2 - x1),3)) is: " + answer);
-        System.out.println();
-        */
-    }//end of main method
-}//end of class
+     // Print the results.
+     public static void printResults(String studentId, double pct)
+     {
+        System.out.printf("Student Number: %s   Grade: %4.1f%n", studentId, pct);
+     }
+
+    // The main method.
+    public static void main(String[] args) throws IOException
+    {
+        String[] testAnswers = new String[11];
+        String[] answerKey = {"name", "T", "F", "T", "F", "T", "F", "T", "F", "T", "T"};
+
+        testAnswers = readTestData();
+        int numCorrect = gradeTest(testAnswers, answerKey);
+        double percent = calcPercent(numCorrect);
+        printResults(testAnswers[0], percent);
+    }
+}
+

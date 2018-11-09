@@ -1,0 +1,12 @@
+PROJECT TITLE: 07.04 Defining New Static Methods / M07_PlanetWeight.java
+PURPOSE OF PROJECT: To calculate the weight of a person on each planet based on their weight on Earth
+DATE: 11/08/2018
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> This project gave me some methods I could use in future programs, rather than rewriting all of the 
+display methods or file reading methods from scratch. 
+<-s> I couldn't understand some of the physics formulae used, but I just wrote the arithmetic expression
+given.
+***********************************************************************************************************
+In the future: I will write most major parts of the program in separate methods so I can reuse them in 
+other programs later.
