@@ -1,0 +1,12 @@
+PROJECT TITLE: 07.05 Challenge Program / M07_EstimatePi
+PURPOSE OF PROJECT: Simulate a dart thrown at a circle to calculate pi
+DATE: 11/09/2018
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> This project was simple because I reused old methods from other programs, and I modified them slightly
+to fit my purposes.
+<-s> I had to modify my Monte Carlo method quite a bit before I could get it to randomize correctly; the 
+printf() displaying method would have looked nicer if a regular print statement was used.
+***********************************************************************************************************
+In the future: I will write reusable methods so I do not have to use so much effort rewriting all the parts
+of programs.
