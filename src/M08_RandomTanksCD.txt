@@ -1,0 +1,13 @@
+M08_RandomTanks
+<<In main method>>
+String [ ] tankTypes
+String type
+int number
+String formation
+
+<<Constructor>>
++M08_RandomTanks()
+
+<<Methods>>
++String randomChoice(String [ ] array) 
++String unitSize(int size)

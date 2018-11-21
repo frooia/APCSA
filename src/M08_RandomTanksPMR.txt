@@ -1,0 +1,10 @@
+PROJECT TITLE: 08.03 Default Constructors / M08_RandomTanks.java
+PURPOSE OF PROJECT: To randomize a tank type and have the user choose the size of a formation
+DATE: 11/20/2018
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> I was able to create a program of my own liking, and the instructions allowed freedom to create any
+program as long as it used several methods and a default constructor.
+<-s> Making a class diagram seemed extra, since my program was not too complex.
+***********************************************************************************************************
+In the future: I would use class diagrams for complicated programs to outline the methods and variables.
