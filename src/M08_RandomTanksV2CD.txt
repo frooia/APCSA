@@ -1,0 +1,17 @@
+M08_RandomTanks
+<<In main method>>
+String [ ] tankTypes
+int number
+String formation, use, size
+
+<<Constructor>>
++M08_RandomTanks()
+
+<<Methods>>
++int getWeight()
++String getColor() 
++double getCaliber()
++String getType()
++String unitSize(int size)
++String tankPurpose(int weight)
++String tankPurpose(double caliber)
