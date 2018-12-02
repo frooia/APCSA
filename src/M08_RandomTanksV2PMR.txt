@@ -1,0 +1,11 @@
+PROJECT TITLE: 08.07 Constructing Multiple Objects / M08_RandomTanksV2.java
+PURPOSE OF PROJECT: To create several tank objects and determine each tank's use
+DATE: 12/02/2018
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> This project did not require much new code to be written, since I could reuse the code from my V1 
+project. 
+<-s> Determining the purpose of the program took some time, and managing the overloaded method was 
+confusing.
+***********************************************************************************************************
+In the future: I would reuse more code in different programs to save time.
