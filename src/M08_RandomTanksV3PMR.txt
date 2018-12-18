@@ -1,0 +1,10 @@
+PROJECT TITLE: 08.08 Arrays of Objects / M08_RandomTanksV3.java
+PURPOSE OF PROJECT: Use tank objects to prompt the user to produce a certain number of them
+DATE: 12/17/2018
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> Using arrays for objects was very similar to using arrays for other data types.
+<-s> Combining algorithms for printing, calculating minimums, maximums, and averages was time consuming.
+***********************************************************************************************************
+In the future: I would use arrays to iterate through a list, since it is simpler than referring to objects
+one by one.
