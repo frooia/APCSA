@@ -1,0 +1,12 @@
+PROJECT TITLE: 08.09 Javadocs / M08_CO2Footprint.java
+PURPOSE OF PROJECT: To use Javadocs to create comments that document each part of a prewritten program
+DATE: 12/24/2018
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> The code was already written, so I did not have to write the program myself. This saved me a lot of 
+time. Writing in comments was also easy, since I only had to describe the code.
+<-s> The Javadoc was very particular about the format of comments that they accepted, and it had to be 
+in exactly the right format for it to accept it.
+***********************************************************************************************************
+In the future: I would use Javadocs for my programs, since it clearly lists methods, constructors, and
+variables.

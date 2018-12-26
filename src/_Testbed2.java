@@ -1,38 +1,43 @@
+
 /**
- * This class tests the ShapesV9a class.
+ * This class tests the ShapesV11 class.
+ * An ArrayList of ShapesV11 objects is created.
+ * The add() method is used to add the objects to the ArrayList as they are instantiated.
  *
- * An array of shapes objects is created to hold the four private instance variables.
+ * A for loop is used to call the calcTriArea() and calcHypotenuse() methods on each object in the ArrayList.
+ * A second for loop is used to print the values of the instance variables for each object.
  *
  * @author Alan Kay
  * @version 06/08/17
  */
+import java.util.ArrayList;
 public class _Testbed2
 {
     public static void main(String[] args)
     {
-        //declaration of variables
-        int side1A, side2A, side1B, side2B;
-        double hypotenuseA, triAreaA, hypotenuseB, triAreaB;
+        ArrayList<_Testbed> shapes = new ArrayList<_Testbed>();
+        shapes.add(new _Testbed(10,  5));
+        shapes.add(new _Testbed( 7, 13));
+        shapes.add(new _Testbed( 2,  4));
+        shapes.add(new _Testbed(28,  3));
 
-        //initialization of array of objects
-        _Testbed[] shapes = {new _Testbed(10, 5),
-                             new _Testbed(7, 13)};
+        _Testbed dataRecord;                   //creates a new dataRecord object of type ShapesV11
+
+        for(int index = 0; index < shapes.size(); index++)
+        {
+            dataRecord = shapes.get(index);
+            dataRecord.calcTriArea();
+            dataRecord.calcHypotenuse();
+        }
+
+        //print table headings
+        System.out.println("                     Triangles                     ");
+        System.out.println("Number     Side 1    Side 2       Hypotenuse       Area");
 
         //call methods
-        for(int index = 0; index < shapes.length; index++)
+        for(int index = 0; index < shapes.size(); index++)
         {
-            shapes[index].calcTriArea();
-            shapes[index].calcHypotenuse();
+            System.out.println("  " + index + " " +  shapes.get(index)); //The toString() method prints object
         }
-
-        //print results
-        System.out.println("        Side 1    Side 2     Hypotenuse       Area");
-        for(int index = 0; index < shapes.length; index++)
-        {
-            System.out.printf("%12d %9d %14.1f %13.1f%n", shapes[index].getSide1(),
-            	                                          shapes[index].getSide2(),
-                                                          shapes[index].getHypotenuse(),
-                                                          shapes[index].getTriArea());
-        }
-    }
-}
+    }//end main
+}//end class
