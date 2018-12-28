@@ -1,0 +1,12 @@
+PROJECT TITLE: 08.11 ArrayLists II / M08_CO2FromWaste.java
+PURPOSE OF PROJECT: To use ArrayLists and calculate net CO2 emissions of households after recycling
+DATE: 12/26/2018
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> Using ArrayLists is similar to using regular Arrays, since the same methods can be used but with more
+flexibility. 
+<-s> Writing the printf statement took the most time, since I had to format each row along with the spacing
+for the table.
+***********************************************************************************************************
+In the future: I would use ArrayLists for lists of objects, rather than regular Arrays, since they can be 
+modified in more ways.

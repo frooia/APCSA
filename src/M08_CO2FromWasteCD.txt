@@ -1,0 +1,19 @@
+M08_CO2FromWaste
+<<In main method>>
+ArrayList<M08_CO2FromWaste> households
+
+<<Constructor>>
++M08_CO2FromWaste(int numPeople, boolean paper, boolean plastic, boolean glass, boolean cans)
+
+<<Methods>>
++void calcGrossWasteEmission()
++void calcWasteReduction()
++void calcNetWasteReduction()
++int getNumPeople()
++boolean getPaper()
++boolean getPlastic()
++boolean getGlass()
++boolean getCans()
++double getEmissions()
++double getReduction()
++double getNetEmissions()
