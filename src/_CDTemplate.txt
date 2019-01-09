@@ -1,0 +1,9 @@
+Class Name
+<<In main method>>
+(Variables)
+
+<<Constructor>>
++ExampleConstructor(int example1)
+
+<<Methods>>
++type exampleMethod(double example2)

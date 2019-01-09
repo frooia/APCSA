@@ -1,0 +1,19 @@
+M08_BMICalcRewrite
+<<In main method>>
+ArrayList<M08_BMICalcRewrite> people
+double minHeight, maxHeight, sumHeight, avgHeight
+double minWeight, maxWeight, sumWeight, avgWeight
+double minBMI, maxBMI, sumBMI, avgBMI
+
+<<Constructor>>
++M08_BMICalcRewrite(String name, int height, int weight)
+
+<<Methods>>
++void calcWeightStatus()
++void calcBMI()
++String getName()
++int getHeight()
++int getWeight()
++double getBMI()
++String getWeightStatus()
++String toString()

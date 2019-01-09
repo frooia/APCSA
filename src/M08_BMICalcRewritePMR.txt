@@ -1,0 +1,11 @@
+PROJECT TITLE: 08.12 Challenge Program / M08_BMICalcRewrite.java
+PURPOSE OF PROJECT: To create people objects with a name, height, and weight, and calculate BMI and weight
+status
+DATE: 1/7/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> The formula for the BMI itself did not need to be written again, since I could use it from the old
+program that was already written.
+<-s> The display with printf() took a long time to write, since I had to format every space.
+***********************************************************************************************************
+In the future: I would reuse parts of old programs so I don't have to rewrite everything again by hand.

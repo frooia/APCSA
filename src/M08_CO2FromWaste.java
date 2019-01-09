@@ -130,4 +130,5 @@ public class M08_CO2FromWaste
    {
        return myNetEmissions;
    }
+   
 }
