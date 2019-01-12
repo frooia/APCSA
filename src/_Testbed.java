@@ -1,73 +1,71 @@
 
-/**
- * This class instantiates shapes objects with four private instance variables.
- * It contains mutator methods to calculate the area of a triangle and the
- * hypotenuse of a triangle. There are getter methods for each private instance
- * variable.
+ /**
+ * The Test2D class demonstrates assigning values to and
+ * traversing a two dimensional array.
  *
- * @author Alan Kay
- * @version 06/08/17
+ * @author Dennis Ritchie
+ * @version 06/09/17
  */
-//import java.util.ArrayList;
 public class _Testbed
 {
-    //declaration of private instance variables
-    private int mySide1, mySide2;
-    private double myArea, myHypotenuse;
 
-
-    //constructor for objects of type ShapesV8
-    public _Testbed(int s1, int s2)
+    // purpose: accepts a two dimensional array, the test number to modify
+    // and the value to add to the current test scores
+    public static void curveTest(int[][] scores, int testNum, int value)
     {
-        mySide1 = s1;
-        mySide2 = s2;
-        myArea = 0.0;
-        myHypotenuse = 0.0;
+        int col = testNum -1;
+        for(int row = 0; row < scores.length; row++)
+        {
+            scores[row][col] += 5;
+        }
     }
 
-    //mutator method to calculate the area of a triangle
-    public double calcTriArea()
+    public static void printScores(int[][] scores)
     {
-        myArea = mySide1 * mySide2 * 0.5;
-        return myArea;
+        int numOfTests = scores[0].length;  // the number of tests equals the number of columns
+
+        //print the table and column headings
+        System.out.println("         Test Scores");
+        System.out.print("Student ");
+        for(int i = 0; i < numOfTests; i++)
+            System.out.printf("%5d", i+1);
+        System.out.println();
+
+        // print the body of the table with row headings
+        for(int row = 0; row < scores.length; row ++)
+        {
+            System.out.printf("%5d   ", row +1);    // Student Number
+
+            for(int col = 0; col < scores[row].length; col ++)
+            {
+                System.out.printf("%5d", scores[row][col]);
+            }
+            System.out.println();
+        }
     }
 
-    //getter method to return the value of the area of a triangle
-    public double getTriArea()
+    public static void main(String[] args)
     {
-        return myArea;
-    }
 
-    //mutator method to calculate the hypotenuse  of a triangle
-    public void calcHypotenuse()
-    {
-        myHypotenuse = Math.sqrt(Math.pow(mySide1, 2) + Math.pow(mySide2, 2));
-    }
+        //int[][] testScores = new int[5][4];
+    
+        int[][] testScores = { { 98, 100, 75, 89},
+                               {100,  95, 97, 85},
+                               { 67,  77, 79, 80},
+                               {100,  99, 95, 87},
+                               {100,  95, 90, 85} };
+    
+         int numRows = testScores.length;
+         int numCols = testScores[0].length;
 
-    //getter method to return the value of the hypotenuse  of a triangle
-    public double getHypotenuse()
-    {
-        return myHypotenuse;
-    }
-
-    //getter method to return the value of side 1 of a triangle
-    public int getSide1()
-    {
-        return mySide1;
-    }
-
-    //getter method to return the value of side 2 of a triangle
-    public int getSide2()
-    {
-        return mySide2;
-    }
-
-    // returns a String of the object's values. The format() method is similar to printf().
-    public String toString()
-    {
-        return String.format("%12d %9d %14.1f %13.1f", mySide1,
-                                                       mySide2,
-                                                       myHypotenuse,
-                                                       myArea);
+         System.out.println("Original table of scores: ");
+         printScores(testScores);
+         System.out.println();
+         System.out.println();
+         curveTest(testScores, 4, 5);
+         System.out.println("Table of scores after curving Test 4 by 5 pts: ");
+         //System.out.printf(" Test #%3d", row);
+         printScores(testScores);
+         System.out.println();
     }
 }
