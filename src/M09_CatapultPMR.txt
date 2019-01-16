@@ -1,0 +1,11 @@
+PROJECT TITLE: 09.04 Challenge Program / M09_Catapult.java
+PURPOSE OF PROJECT: To calculate the ranges of a fruit projectile given launch speeds and angles
+DATE: 01/16/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> The program planning was not very hard, I was able to create objects for each speed and angle and 
+write the formula for range easily.
+<-s> Using pringf() to display data in a table was time-consuming, and formatting took more time than 
+actually writing the program itself.
+***********************************************************************************************************
+In the future: I would use 2D ArrayLists to organize data effectively, as well as regular ArrayLists.
