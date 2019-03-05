@@ -1,33 +1,20 @@
-
-/**
- * This class tests the recursive method for
- * the given Piecewise function.
- *
- * @author Elle Navan
- * @version 06/12/17
- */
-class RecursiveMethods
-{
-    RecursiveMethods()          // default constructor
-    {
-    }
-
-    public int numDigits(int n)
-    {
-    	if (n <= 9) {
-    		return 1;
-    	}
-    	else {
-    		return 1 + numDigits(n/10);
-    	}
-    }
-}
-
+import java.util.Scanner;
 public class _Testbed
 {
-    public static void main(String[] args)
-    {
-        RecursiveMethods obj = new RecursiveMethods();
-        System.out.println(obj.numDigits(987532));
-    }
+	public static void main(String [ ] args) 
+	{
+		Scanner iangay = new Scanner(System.in);
+		int testNum = iangay.nextInt();
+		for (int i = 0; i < testNum; i++) {
+			String string = iangay.next() + iangay.nextLine();
+			int sum = 0;
+			String [ ] splitted = string.split(" ");
+			for (String word : splitted) {
+				int num = Integer.parseInt(word);
+				sum += num;
+			}
+			System.out.println("Case #" + (i + 1) + ": " + sum);
+		}
+		
+	}
 }

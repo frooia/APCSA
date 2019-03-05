@@ -1,0 +1,11 @@
+PROJECT TITLE: 12.05 Are We There Yet? / M12_Fibonacci.java
+PURPOSE OF PROJECT: To generate the nth Fibonacci number, where n is user input
+DATE: 02/21/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> Since I have a background in math, the logic behind generating Fibonacci numbers was easy to work out.
+<-s> Making two separate loops, one for the Fibonacci numbers and one for asking questions, was harder to 
+reason out and I had to plan out the program beforehand.
+***********************************************************************************************************
+In the future: I would do more planning before I start programming in order to determine what statements 
+should go into which methods.

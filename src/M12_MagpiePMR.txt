@@ -1,0 +1,10 @@
+PROJECT TITLE: Magpie / M12_Magpie.java
+PURPOSE OF PROJECT: To create a chatbot that can converse with a human user
+DATE: 03/02/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> This lab involved basic String methods, and I was able to use them without much problem.
+<-s> It took some time to go through the logic of the findKeyword method.
+***********************************************************************************************************
+In the future: I will try to remember all the different String methods and what they do with input, as well
+as their parameters.

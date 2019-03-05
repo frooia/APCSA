@@ -2,13 +2,12 @@
  * This program calculates the nth Fibonacci number.
  * 
  * @author Lydia Chung
- * @version 02/20/2019
+ * @version 02/21/2019
  * 
  */
 import java.util.Scanner;
 class Rabbits
 {
-	Scanner in = new Scanner(System.in);
 	public void ask()
 	{
 		
@@ -25,8 +24,9 @@ class Rabbits
 		}
 		System.out.println(fNum);
 		*/
-		
-		System.out.print("Enter which Fibonacci number you want ('-1' to quit): ");
+
+		Scanner in = new Scanner(System.in);
+		System.out.print("Enter which Fibonacci number you want, between 1st and 45th number ('-1' to quit): ");
 		n = in.nextInt();
 		while (n != -1) {
 			if (n > 45) {
@@ -36,7 +36,7 @@ class Rabbits
 				fNum = calcNum(n);
 				System.out.println(fNum);
 			}
-			System.out.print("Enter which Fibonacci number you want ('-1' to quit): ");
+			System.out.print("Enter which Fibonacci number you want, between 1st and 45th number ('-1' to quit): ");
 			n = in.nextInt();
 		}
 		System.out.println("Thank you for generating Fibonacci numbers!");
