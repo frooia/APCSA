@@ -1,0 +1,10 @@
+PROJECT TITLE: 13.03 Polymorphism / M13_Circle.java et al
+PURPOSE OF PROJECT: To create a tester class displaying the centers of circle objects
+DATE: 03/09/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> The code did not take long to make, I was able to finish the project smoothly with few complications.
+<-s> It took me some time to add each circle object into the ArrayList.
+***********************************************************************************************************
+In the future: I would use ArrayLists to arrange different types of objects so methods can be implemented
+easier.

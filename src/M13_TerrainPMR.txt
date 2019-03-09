@@ -1,0 +1,10 @@
+PROJECT TITLE: 13.02 Class Hierarchies / M13_Terrain.java et al.
+PURPOSE OF PROJECT: To create different class hierarchies to describe different game terrains
+DATE: 03/05/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> This program was simple in terms of coding, once I got the getter method calls written. I could reuse
+most of the same code between the different classes.
+<-s> I had to make many files, one for each new class. I was not used to making so many new files.
+***********************************************************************************************************
+In the future: I would try out more class hierarchies to conserve code.
