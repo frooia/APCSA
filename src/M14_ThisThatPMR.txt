@@ -1,0 +1,10 @@
+PROJECT TITLE: 14.05 This or That Variable / M14_ThisThat.java
+PURPOSE OF PROJECT: To use a this variable to refer to instance variables
+DATE: 04/07/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> This project took very little time, since I only had to reuse old code.
+<-s> I had to find a suitable program for the variable, since not every program had private instance
+variables.
+***********************************************************************************************************
+In the future: I will use the keyword this instead of making many private instance variables.

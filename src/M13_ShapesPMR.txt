@@ -1,0 +1,10 @@
+PROJECT TITLE: 13.04 Overriding Methods / M13_ShapesTester.java etc.
+PURPOSE OF PROJECT: To demonstrate how to override the equals and toString methods of the Object class
+DATE: 03/17/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> I used a lot of the code provided within the lesson to do the project, so I only had to write the new 
+classes that I made.
+<-s> The many classes made with the hierarchical structure was a bit messy to organize on my computer.
+***********************************************************************************************************
+In the future: I would find a better organizational structure for the many classes that I have to make.

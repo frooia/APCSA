@@ -1,0 +1,11 @@
+PROJECT TITLE: 14.03 Caesar Shift / M14_CaesarTester.java etc.
+PURPOSE OF PROJECT: To create programs that can encrypt and decrypt messages using a Caesar cipher
+DATE: 03/27/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> I already wrote a Caesar cipher program some time ago for another project, so I reused the formula for
+the key and shift.
+<-s> The decryption class was harder to create, since I did not know how to change from an encryption 
+formula to a decryption one.
+***********************************************************************************************************
+In the future: I would experiment more with static and final variables.

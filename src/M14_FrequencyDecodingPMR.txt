@@ -1,0 +1,11 @@
+PROJECT TITLE: 14.07 Challenge Program / M14_FrequencyDecoding.java etc.
+PURPOSE OF PROJECT: To find the frequencies of letters in a text file and generate a frequencies file
+DATE: 04/22/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> Writing the program to calculate the frequencies of letters was not hard. I referred to past programs
+for guidance on how to use the File and PrintWriter classes.
+<-s> Finding the key to the substitution cipher took a very long time. I had to trial-and-error different 
+letters in order to find the correct key that matched. 
+***********************************************************************************************************
+In the future: I will find algorithmic methods to test if a key is correct instead of trial and error.

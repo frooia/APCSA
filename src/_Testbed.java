@@ -1,20 +1,49 @@
-import java.util.Scanner;
+/**
+ * This class demonstrates local variables and
+ * instance variables with different names.
+ *
+ * @author Alan Turing
+ * @version 06/14/17
+ */
+
+class ThisDemoB
+{
+    private String myName;    //this name is an instance variable
+
+    ThisDemoB()
+    {
+    }
+
+    ThisDemoB(String name)   //that name is a local variable
+    {
+        myName = name;
+    }
+
+    public void setName(String name)  //that name is a local variable
+    {
+        myName = name;
+    }
+
+    public String getName()
+    {
+        return myName;
+    }
+}
+
 public class _Testbed
 {
-	public static void main(String [ ] args) 
-	{
-		Scanner iangay = new Scanner(System.in);
-		int testNum = iangay.nextInt();
-		for (int i = 0; i < testNum; i++) {
-			String string = iangay.next() + iangay.nextLine();
-			int sum = 0;
-			String [ ] splitted = string.split(" ");
-			for (String word : splitted) {
-				int num = Integer.parseInt(word);
-				sum += num;
-			}
-			System.out.println("Case #" + (i + 1) + ": " + sum);
-		}
-		
-	}
+    public static void main(String[] args)
+    {
+        System.out.println("Test the constructor: ");
+
+        ThisDemoB try3 = new ThisDemoB("Whitfield Diffie");
+        System.out.println(try3.getName() + " is a famous cryptographer.");
+
+
+        System.out.println("\nTry again with setName method: ");
+
+        ThisDemoB try4 = new ThisDemoB();
+        try4.setName("Whitfield Diffie");
+        System.out.println(try4.getName() + " is a famous cryptographer.");
+    }
 }

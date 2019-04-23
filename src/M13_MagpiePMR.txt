@@ -1,0 +1,10 @@
+PROJECT TITLE: 13.05 Magpie Lab / M13_Magpie.java
+PURPOSE OF PROJECT: To further modify a Magpie chatbot
+DATE: 03/18/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> Exploring the code behind the Magpie chatbot was interesting, since I could understand the processes
+behind responses to humans.
+<-s> It took some time to understand the code in the transform methods.
+***********************************************************************************************************
+In the future: I would use the substring methods more to be familiar with them.

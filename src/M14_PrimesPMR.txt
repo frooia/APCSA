@@ -1,0 +1,11 @@
+PROJECT TITLE: 14.06 Thinking Outside the Box / M14_Primes.java
+PURPOSE OF PROJECT: Calculate the primes within a user-given range
+DATE: 04/17/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> The program code was not very hard to write.
+<-s> The algorithm necessary for computing prime numbers required some thought, like how to factorize and 
+loop through a range.
+***********************************************************************************************************
+In the future: I will plan out all the methods and calculations needed for a program before starting to 
+write code.
