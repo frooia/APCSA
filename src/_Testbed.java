@@ -1,49 +1,16 @@
-/**
- * This class demonstrates local variables and
- * instance variables with different names.
- *
- * @author Alan Turing
- * @version 06/14/17
- */
+import java.util.ArrayList;
 
-class ThisDemoB
-{
-    private String myName;    //this name is an instance variable
-
-    ThisDemoB()
-    {
-    }
-
-    ThisDemoB(String name)   //that name is a local variable
-    {
-        myName = name;
-    }
-
-    public void setName(String name)  //that name is a local variable
-    {
-        myName = name;
-    }
-
-    public String getName()
-    {
-        return myName;
-    }
-}
 
 public class _Testbed
 {
     public static void main(String[] args)
     {
-        System.out.println("Test the constructor: ");
-
-        ThisDemoB try3 = new ThisDemoB("Whitfield Diffie");
-        System.out.println(try3.getName() + " is a famous cryptographer.");
-
-
-        System.out.println("\nTry again with setName method: ");
-
-        ThisDemoB try4 = new ThisDemoB();
-        try4.setName("Whitfield Diffie");
-        System.out.println(try4.getName() + " is a famous cryptographer.");
+    	ArrayList< Integer > a = new ArrayList< Integer >();
+    	int value;
+    	a.add(4);
+    	a.add(5);
+    	a.add(new Integer(6));
+    	value = a.size();
+    	System.out.println(value);
     }
 }

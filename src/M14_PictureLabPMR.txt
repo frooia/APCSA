@@ -1,0 +1,12 @@
+PROJECT TITLE: 14.10 Picture Lab / PictureExplorer.java etc.
+PURPOSE OF PROJECT: To display and manipulate pictures
+DATE: 04/30/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> This lab was very interesting. I was able to learn about displaying images on a separate canvas 
+instead of just in the console.
+<-s> I had to follow the instructions in the worksheet very closely and troubleshoot the issues with 
+copying the folder into my computer, since I used Eclipse and not BlueJ.
+***********************************************************************************************************
+In the future: I would learn more about creating canvases to display images instead of doing everything in
+the console.
