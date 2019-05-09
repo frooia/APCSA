@@ -1,0 +1,12 @@
+PROJECT TITLE: 15.01 Abstract Classes / M15_Homework.java etc.
+PURPOSE OF PROJECT: To display the courses and assignments for each reading
+DATE: 05/02/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> The classes were more or less the same, just changing the course name. I could copy and paste most of 
+the code.
+<-s> I did not know how to get the toString method to inherit for all the Homework classes, so I had to 
+copy it for each class. 
+***********************************************************************************************************
+In the future: I would make a single Homework class instead of a different class for every course, since
+that saves space.

@@ -1,0 +1,10 @@
+PROJECT TITLE: 15.03 Interfaces / M15_Homework.java (version 2)
+PURPOSE OF PROJECT: To implement an interface that does homework
+DATE: 05/04/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> This project was based off a pre-existing program, so I did not have to write new code.
+<-s> Organizing the different interfaces, abstract classes, and concrete classes was confusing.
+***********************************************************************************************************
+In the future: I would work on planning the structure of a program before writing code to prevent confusion
+when writing classes and methods.

@@ -2,7 +2,7 @@
  * This is a class for English homework assignments.
  * 
  * @author Lydia Chung
- * @version 05/01/2019
+ * @version 05/08/2019
  */
 public class M15_HomeworkEnglish extends M15_Homework
 {
@@ -16,11 +16,15 @@ public class M15_HomeworkEnglish extends M15_Homework
 	}
 	public void createAssignment(int pages)
 	{
-		type = "English";
-		this.pages = pages;
+		this.setType("English");
+		this.setPages(pages);
 	}
 	public String toString()
 	{
-		return type + " homework: read " + pages + " pages";
+		return getType() + " homework: read " + getPages() + " pages";
+	}
+	@Override
+	public void doHW(int pgRead) {
+		pages -= pgRead;
 	}
 }

@@ -1,0 +1,12 @@
+PROJECT TITLE: 15.04 Comparable <T> Interface / M15_Homework.java etc.
+PURPOSE OF PROJECT: To compare different homework reading amounts
+DATE: 05/08/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> This program was using the previous code I had already written and making slight modifications to it,
+which was not hard.
+<-s> I had trouble understanding the concept of abstract classes and interfaces, but I was able to use it
+after some research. I also had to write a new getType and setType method that I didn't think was necessary
+before.
+***********************************************************************************************************
+In the future: I will recognize how abstract classes and interfaces ought to be used.

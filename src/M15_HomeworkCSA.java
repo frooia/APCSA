@@ -2,7 +2,7 @@
  * This is a class for Computer Science homework assignments.
  * 
  * @author Lydia Chung
- * @version 05/01/2019
+ * @version 05/08/2019
  */
 public class M15_HomeworkCSA extends M15_Homework
 {
@@ -14,7 +14,15 @@ public class M15_HomeworkCSA extends M15_Homework
 	}
 	public void createAssignment(int pages)
 	{
-		type = "AP Computer Science A";
-		this.pages = pages;
+		this.setType("AP Computer Science A");
+		this.setPages(pages);
+	}
+	public String toString()
+	{
+		return getType() + " homework: read " + getPages() + " pages";
+	}
+	@Override
+	public void doHW(int pgRead) {
+		pages -= pgRead;
 	}
 }
