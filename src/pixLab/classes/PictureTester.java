@@ -1,8 +1,8 @@
 /*
- * Purpose:
+ * Purpose: To manipulate images using the Picture class
  * 
- * < your name >
- * < today's date >
+ * Lydia Chung
+ * 05/28/2019
 */
 
 /**
@@ -15,10 +15,31 @@
  */
 public class PictureTester
 {
+  public static void testGrayscale()
+  {
+	  Picture flower = new Picture("src/pixLab/images/whiteFlower.jpg");
+	  flower.explore();
+	  flower.grayscale();
+	  flower.explore();
+  }
+  public static void testNegate()
+  {
+	  Picture bike = new Picture("src/pixLab/images/redMotorcycle.jpg");
+	  bike.explore();
+	  bike.negate();
+	  bike.explore();
+  }
+  public static void testKeepOnlyBlue()
+  {
+	  Picture water = new Picture("src/pixLab/images/water.jpg");
+	  water.explore();
+	  water.keepOnlyBlue();
+	  water.explore();
+  }
   /** Method to test zeroBlue - Activity 5 */
   public static void testZeroBlue()
   {
-    Picture beach = new Picture("beach.jpg");
+    Picture beach = new Picture("src/pixLab/images/beach.jpg");
     beach.explore();
     beach.zeroBlue();
     beach.explore();
@@ -27,25 +48,65 @@ public class PictureTester
   /** Method to test mirrorVertical */
   public static void testMirrorVertical()
   {
-    Picture caterpillar = new Picture("caterpillar.jpg");
+    Picture caterpillar = new Picture("src/pixLab/images/caterpillar.jpg");
     caterpillar.explore();
     caterpillar.mirrorVertical();
     caterpillar.explore();
   }
   
+  public static void testMirrorVerticalRightToLeft()
+  {
+	  Picture bike = new Picture("src/pixLab/images/redMotorcycle.jpg");
+	  bike.explore();
+	  bike.mirrorVerticalRightToLeft();
+	  bike.explore();
+  }
+  
+  public static void testMirrorHorizontal()
+  {
+	  Picture pic = new Picture("src/pixLab/images/gorge.jpg");
+	  pic.explore();
+	  pic.mirrorHorizontal();
+	  pic.explore();
+  }
+  
+  public static void testMirrorHorizontalBotToTop()
+  {
+	  Picture pic = new Picture("src/pixLab/images/kitten2.jpg");
+	  pic.explore();
+	  pic.mirrorHorizontalBotToTop();
+	  pic.explore();
+  }
+  
   /** Method to test mirrorTemple */
   public static void testMirrorTemple()
   {
-    Picture temple = new Picture("temple.jpg");
+    Picture temple = new Picture("src/pixLab/images/temple.jpg");
     temple.explore();
     temple.mirrorTemple();
     temple.explore();
   }
   
+  public static void testMirrorArms()
+  {
+	  Picture pic = new Picture("src/pixLab/images/snowman.jpg");
+	  pic.explore();
+	  pic.mirrorArms();
+	  pic.explore();
+  }
+  
+  public static void testMirrorGull()
+  {
+	  Picture pic = new Picture("src/pixLab/images/seagull.jpg");
+	  pic.explore();
+	  pic.mirrorGull();
+	  pic.explore();
+  }
+  
   /** Method to test the collage method */
   public static void testCollage()
   {
-    Picture canvas = new Picture("640x480.jpg");
+    Picture canvas = new Picture("src/pixLab/images/640x480.jpg");
     canvas.createCollage();
     canvas.explore();
   }
@@ -53,7 +114,7 @@ public class PictureTester
   /** Method to test edgeDetection */
   public static void testEdgeDetection()
   {
-    Picture swan = new Picture("swan.jpg");
+    Picture swan = new Picture("src/pixLab/images/swan.jpg");
     swan.edgeDetection(10);
     swan.explore();
   }
@@ -66,29 +127,31 @@ public class PictureTester
     // comment out the ones you don't want to run
     
     // Activity 5
+	/*
     testZeroBlue();
-    //testKeepOnlyBlue();
-    //testKeepOnlyRed();
-    //testKeepOnlyGreen();
-    //testNegate();
-    //testGrayscale();
+    testKeepOnlyBlue();
+    testNegate();
+    testGrayscale();
+    */
     
     // Activity 5 Challenge - optional
     //testFixUnderwater();
     
     // Activity 6
-    //testMirrorVertical();
-    //testMirrorVerticalRightToLeft();
-    //testMirrorHorizontal();
-    //testMirrorHorizontalBotToTop();
+	/*
+    testMirrorVertical();
+    testMirrorVerticalRightToLeft();
+    testMirrorHorizontal();
+    testMirrorHorizontalBotToTop();
     
     // Activity 6 Challenge - optional
     //testMirrorDiagonal();
+    */
     
     // Activity 7
-    //testMirrorTemple();
-    //testMirrorArms();
-    //testMirrorGull();
+    testMirrorTemple();
+    testMirrorArms();
+    testMirrorGull();
 
     
     // Activity 8

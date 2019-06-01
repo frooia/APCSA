@@ -1,0 +1,12 @@
+PROJECT TITLE: 16.02 Replacements / M16_ElectionTester1.java etc.
+PURPOSE OF PROJECT: To use arrays and ArrayLists to accomplish the same replacements and transversals
+DATE: 06/01/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> The Candidate class was already provided, so I could use the methods already created for the 
+candidates.
+<-s> I had to write the same methods for both arrays and ArrayLists, but the methods contain the exact same
+code save for syntax like get() and size() / length.
+***********************************************************************************************************
+In the future: I will keep in mind the two options I have for dealing with data structures: both arrays and
+ArrayLists.

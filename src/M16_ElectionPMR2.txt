@@ -1,0 +1,11 @@
+PROJECT TITLE: 16.04 Deletions / M16_ElectionTester3.java etc.
+PURPOSE OF PROJECT: To create arrays and ArrayLists that manipulate M16_Candidate objects
+DATE: 06/01/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> I was able to write the methods with little trouble. I followed the instructions in the lesson for 
+dealing with null objects and I modified the other methods.
+<-s> I had to change all the methods from before to account for null objects.
+***********************************************************************************************************
+In the future: I will make use of the basic algorithms of inserting and deleting in arrays and ArrayLists 
+to organize data.

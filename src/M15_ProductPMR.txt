@@ -1,0 +1,12 @@
+PROJECT TITLE: 15.05 Challenge Program / M15_Product.java etc.
+PURPOSE OF PROJECT: To create an interface and classes of products with costs and comparison
+DATE: 05/12/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> When I ran into issues with the tester program, I was able to reference back to the classes to fix the
+problems.
+<-s> I had to declare specific methods and variables as public and private in order to access them, and it
+took some time for me to realize that I had to do that.
+***********************************************************************************************************
+In the future: I would be more meticulous in program planning before starting, because this would eliminate
+many debugging issues.

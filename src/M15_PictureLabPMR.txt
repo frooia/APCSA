@@ -1,0 +1,12 @@
+PROJECT TITLE: 15.07 Picture Lab
+PURPOSE OF PROJECT: 
+DATE: 05/28/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> This lab was interesting to me, because I could experience how picture editing works fundamentally 
+with colors and reflecting images.
+<-s> I had to follow the directions very closely to get the program to produce the proper results. I also 
+had to hunt for pixels using the explore method, which took time.
+***********************************************************************************************************
+In the future: I would focus more on reading the code line by line to find out how the methods worked 
+fundamentally before writing my own methods.
