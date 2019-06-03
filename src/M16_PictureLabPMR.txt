@@ -1,0 +1,12 @@
+PROJECT TITLE: 16.06 Picture Lab / Picture.java etc.
+PURPOSE OF PROJECT: To manipulate images with cropping and making collages
+DATE: 06/03/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> I could reuse the code that was already written for example methods in my own methods. The image 
+effects that I could make were interesting.
+<-s> I had to hunt for pixels when using the copy method, since there were many pixel boundaries used as 
+input. 
+***********************************************************************************************************
+In the future: I will be more meticulous when writing methods and organizing them, especially when there
+are so many methods in one class.

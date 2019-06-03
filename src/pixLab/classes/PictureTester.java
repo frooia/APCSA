@@ -2,7 +2,7 @@
  * Purpose: To manipulate images using the Picture class
  * 
  * Lydia Chung
- * 05/28/2019
+ * 06/03/2019
 */
 
 /**
@@ -110,7 +110,19 @@ public class PictureTester
     canvas.createCollage();
     canvas.explore();
   }
-  
+  public static void testCopy()
+  {
+	  Picture canvas = new Picture("src/pixLab/images/640x480.jpg");
+	  Picture pic = new Picture("src/pixLab/images/seagull.jpg");
+	  canvas.copy(pic, 236, 236, 323, 345, 100, 100);
+	  canvas.explore();
+  }
+  public static void testMyCollage()
+  {
+	  Picture canvas = new Picture("src/pixLab/images/640x480.jpg");
+	  canvas.myCollage();
+	  canvas.explore();
+  }
   /** Method to test edgeDetection */
   public static void testEdgeDetection()
   {
@@ -118,7 +130,12 @@ public class PictureTester
     swan.edgeDetection(10);
     swan.explore();
   }
-  
+  public static void testEdgeDetection2()
+  {
+	  Picture swan = new Picture("src/pixLab/images/swan.jpg");
+	  swan.edgeDetection2(10);
+	  swan.explore();
+  }
   /** Main method for testing.  Every class can have a main
     * method in Java */
   public static void main(String[] args)
@@ -146,13 +163,12 @@ public class PictureTester
     
     // Activity 6 Challenge - optional
     //testMirrorDiagonal();
-    */
     
     // Activity 7
     testMirrorTemple();
     testMirrorArms();
     testMirrorGull();
-
+	*/
     
     // Activity 8
     //testCollage();
@@ -160,8 +176,8 @@ public class PictureTester
     //testMyCollage();
     
     // Activity 9
-    //testEdgeDetection();
-    //testEdgeDetection2();
+    testEdgeDetection();
+    testEdgeDetection2();
     
     // Extra methods
     //testChromakey();

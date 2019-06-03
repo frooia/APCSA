@@ -3,7 +3,7 @@
  * or even content of the picture
  * 
  * Lydia Chung
- * 05/28/2019
+ * 06/03/2019
 */
 
 
@@ -363,15 +363,33 @@ public class Picture extends SimplePicture
                    int toStartRow, 
                    int toStartCol)
   {
-    // to be completed for Activity 8
+	    Pixel fromPixel = null;
+	    Pixel toPixel = null;
+	    Pixel[][] toPixels = this.getPixels2D();
+	    Pixel[][] fromPixels = fromPic.getPixels2D();
+	    for (int fromRow = fromStartRow, toRow = toStartRow; 
+	         fromRow < fromEndRow &&
+	         toRow < fromEndRow - fromStartRow + toStartRow; 
+	         fromRow++, toRow++)
+	    {
+	      for (int fromCol = fromStartCol, toCol = toStartCol; 
+	           fromCol < fromEndCol &&
+	           toCol < fromEndCol - fromStartCol + toStartCol;  
+	           fromCol++, toCol++)
+	      {
+	        fromPixel = fromPixels[fromRow][fromCol];
+	        toPixel = toPixels[toRow][toCol];
+	        toPixel.setColor(fromPixel.getColor());
+	      }
+	    }
   }
   
   
   /** Method to create a collage of several pictures */
   public void createCollage()
   {
-    Picture flower1 = new Picture("flower1.jpg");
-    Picture flower2 = new Picture("flower2.jpg");
+    Picture flower1 = new Picture("src/pixLab/images/flower1.jpg");
+    Picture flower2 = new Picture("src/pixLab/images/flower2.jpg");
     this.copy(flower1,0,0);
     this.copy(flower2,100,0);
     this.copy(flower1,200,0);
@@ -381,11 +399,22 @@ public class Picture extends SimplePicture
     this.copy(flower1,400,0);
     this.copy(flower2,500,0);
     this.mirrorVertical();
-    this.write("collage.jpg");
+    this.write("src/pixLab/images/collage.jpg");
   }
-  
-  // myCollage
-  
+  public void myCollage()
+  {
+	  Picture seagull = new Picture("src/pixLab/images/seagull.jpg");
+	  this.copy(seagull, 236, 236, 323, 345, 100, 100);
+	  Picture grayscaleSeagull = new Picture(seagull);
+	  grayscaleSeagull.grayscale();
+	  this.copy(grayscaleSeagull, 236, 236, 323, 345, 200, 100);
+	  Picture negateSeagull = new Picture(seagull);
+	  negateSeagull.negate();
+	  this.copy(negateSeagull, 236, 236, 323, 345, 300, 100);
+	  this.mirrorVertical();
+      this.write("src/pixLab/images/collage.jpg");
+	  
+  }
   
   /////////////////////////// Activity 9 ////////////////////////////
   /** Method to show large changes in color 
@@ -412,6 +441,38 @@ public class Picture extends SimplePicture
     }
   }  
   
-  // edgeDetection2
+  public void edgeDetection2(int edgeDist)
+  {
+    Pixel leftPixel = null;
+    Pixel rightPixel = null;
+    Pixel[][] pixels = this.getPixels2D();
+    Color rightColor = null;
+    for (int row = 0; row < pixels.length-1; row++)
+    {
+      for (int col = 0; col < pixels[0].length; col++)
+      {
+        leftPixel = pixels[row][col];
+        rightPixel = pixels[row+1][col];
+        rightColor = rightPixel.getColor();
+        if (leftPixel.colorDistance(rightColor) > edgeDist)
+          leftPixel.setColor(Color.BLACK);
+        else
+          leftPixel.setColor(Color.WHITE);
+      }
+    }
+    for (int row = 0; row < pixels.length; row++)
+    {
+      for (int col = 0; col < pixels[0].length-1; col++)
+      {
+        leftPixel = pixels[row][col];
+        rightPixel = pixels[row][col+1];
+        rightColor = rightPixel.getColor();
+        if (leftPixel.colorDistance(rightColor) > edgeDist)
+          leftPixel.setColor(Color.BLACK);
+        else
+          leftPixel.setColor(Color.WHITE);
+      }
+    }
+  } 
   
 } // this } is the end of class Picture, put all new methods before this

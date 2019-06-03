@@ -1,0 +1,11 @@
+PROJECT TITLE: 16.05 Challenge Program / M16_Student.java etc.
+PURPOSE OF PROJECT: To manipulate student objects that have quiz score attributes
+DATE: 06/03/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> This program was very similar to the assignments before, so I wrote the methods in the tester class
+easily. Using an ArrayList was easier to manipulate than using an array.
+<-s> On the insertBefore method, I did not put a break statement after adding a new student, which caused
+an error. I fixed this problem after some testing.
+***********************************************************************************************************
+In the future: I will arrange objects in an ArrayList in order to make edits to them easily.
