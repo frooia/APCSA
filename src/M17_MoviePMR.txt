@@ -1,0 +1,12 @@
+PROJECT TITLE: 17.02 Insertion Sort / M17_Movie.java etc.
+PURPOSE OF PROJECT: To display and sort Movie objects by title, year, and studio
+DATE: 06/04/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> The insertion sort algorithm was simple for sorting in descending order once I wrote the method for
+sorting in ascending order.
+<-s> I had to go through the insertion sort algorithm a few more times to understand how it shifted 
+elements.
+***********************************************************************************************************
+In the future: I would pay close attention to the smaller details of programs especially involving arrays, 
+since loops, their conditions, and switching elements are the basis of sorting algorithms.

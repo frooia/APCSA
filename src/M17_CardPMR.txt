@@ -1,0 +1,10 @@
+PROJECT TITLE: 17.06 Computer Science Lab: Elevens / M17_Card.java etc.
+PURPOSE OF PROJECT: To create card objects with a rank, suit, and point value and deck objects
+DATE: 06/07/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> This project had very clear instructions for how to write the methods and constructors.
+<-s> At first I did not understand how the suit array worked, and only later did I realize that all the 
+ranks of cards had to be initialized for each suit.
+***********************************************************************************************************
+In the future: I will follow the program instructions and specifications closely to accomplish the task.

@@ -1,0 +1,11 @@
+PROJECT TITLE: 17.04 Merge Sort / M17_MovieTester3.java
+PURPOSE OF PROJECT: To sort movie objects by title, year, and studio with a merge sort algorithm
+DATE: 06/06/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> The organization of methods was similar to previous assignments, so I could use the same movie objects
+for all of the sorting algorithms.
+<-s> Merge sort was more complicated than insertion and selection sort, so I had to draw out the process.
+***********************************************************************************************************
+In the future: I will take time complexity in as a factor when considering using different sorting
+algorithms, since merge sort is much faster than insertion or selection sort for big data sets.

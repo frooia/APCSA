@@ -1,0 +1,13 @@
+PROJECT TITLE: 17.05 Challenge Program / M17_Item.java etc.
+PURPOSE OF PROJECT: To sort a list of items with different algorithms
+DATE: 06/06/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> This program used methods I already learned in previous lessons, so I only had to copy the algorithms
+used before.
+<-s> I had trouble adding the dollar sign to the price, since the String.format method had the price 
+rounded as a double but I had to attach $ (a string) to the front. I solved this by pre-converting the 
+price to a string and appending the dollar sign before displaying it with String.format.
+***********************************************************************************************************
+In the future: I will experiment with different sorting algorithms that accomplish the same task to choose
+the one with the best performance for my needs.

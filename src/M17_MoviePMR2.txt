@@ -1,0 +1,12 @@
+PROJECT TITLE: 17.03 Selection Sort / M17_MovieTester2.java
+PURPOSE OF PROJECT: To sort movie objects by title, year, and studio using a selection sort algorithm
+DATE: 06/04/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> This program was very similar to the previous insertion sort one save for the sorting algorithm, so I 
+reused the objects already created.
+<-s> The selection sort algorithm was simpler than insertion sort, but I still had to go step by step 
+through the examples to understand.
+***********************************************************************************************************
+In the future: I will carefully walk through the process of an algorithm before writing it in order to 
+avoid missing details.
