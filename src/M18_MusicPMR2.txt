@@ -1,0 +1,11 @@
+PROJECT TITLE: 18.02 Binary Search / M18_MusicTester2.java
+PURPOSE OF PROJECT: To search for songs by title, year, and artist using binary search
+DATE: 06/10/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> The binary search algorithm was easy to understand because of its divide and conquer nature. 
+<-s> For the parts where the program had to print all the objects that fulfilled a requirement, I had to 
+write all the code from scratch because binary search only output a single result. 
+***********************************************************************************************************
+In the future: I will use binary search for long lists of objects, since it is much more efficient than 
+sequential search.

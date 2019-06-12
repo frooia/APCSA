@@ -1,0 +1,10 @@
+PROJECT TITLE: 18.03 Challenge Program / M18_ContactsTester.java
+PURPOSE OF PROJECT: To search for relatives based on name, relation, birthday, phone number, and email
+DATE: 06/12/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> The methods were very similar, and I used a String data type for every attribute, so theoretically I 
+could have used the same search methods for all attributes.
+<-s> Creating ten objects with five attributes each took time to do, so I used a random generator.
+***********************************************************************************************************
+In the future: I will be ready to sort and search for objects with arrays.

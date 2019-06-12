@@ -1,0 +1,11 @@
+PROJECT TITLE: 18.05 Computer Science Lab: Elevens / M18_Shuffler.java etc.
+PURPOSE OF PROJECT: To shuffle cards within a deck
+DATE: 06/12/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> The shuffle() method in the Deck class was very similar to the selectionShuffle method in the Shuffler
+class.
+<-s> I accidentally used cards.size() for the randomization part of the shuffle method, and it shuffled the
+dealt cards as well. I fixed this by using the size private instance variable instead.
+***********************************************************************************************************
+In the future: I will use flexible methods for randomization, such as looping for shuffling an entire deck.

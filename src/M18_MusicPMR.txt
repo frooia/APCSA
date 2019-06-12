@@ -1,0 +1,10 @@
+PROJECT TITLE: 18.01 Sequential Search / M18_Music.java etc.
+PURPOSE OF PROJECT: To search for songs by title, year, and artist
+DATE: 06/07/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> This project was easy to understand, since sequential searching is very simple. Returning multiple 
+results from a search was also not hard.
+<-s> I had to declare all the song objects anew, which took some time because I had to search for songs.
+***********************************************************************************************************
+In the future: I will use sequential search for short lists which do not take long to traverse through.
