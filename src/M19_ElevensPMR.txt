@@ -1,0 +1,11 @@
+PROJECT TITLE: 19.03 Computer Science Lab: Elevens / ElevensBoard.java
+PURPOSE OF PROJECT: To design methods that help the user play the game Elevens
+DATE: 06/21/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> I got to make a fun game that I could play.
+<-s> I was very confused on some of the methods and how they worked in the GUI. I had to refer to many 
+classes before to relearn the attributes of some objects, like the Card class and the Deck class.
+***********************************************************************************************************
+In the future: As programs get more complex, I will refer back to previous classes to understand the 
+attributes of many objects used in complicated programs.

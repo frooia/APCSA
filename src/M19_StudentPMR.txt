@@ -1,0 +1,10 @@
+PROJECT TITLE: 19.02 Challenge Program / M19_Student.java etc.
+PURPOSE OF PROJECT: To account for exceptions in creating student objects
+DATE: 06/12/2019
+AUTHOR: Lydia Chung
+************************************************** P M R **************************************************
+<+s> I had already made classes similar to this one, and the class itself was not hard to write.
+<-s> I could only test one exception at a time, so I had to comment out all of the other sections of code 
+for each test.
+***********************************************************************************************************
+In the future: I will account for exceptions when handling inputs that are not logical.
